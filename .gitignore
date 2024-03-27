@@ -1,7 +1,8 @@
 image/
 dataset/
-implementCPP/.ipynb_checkpoints
-implementCPP/.vscode
+implement/.ipynb_checkpoints
+implement/.vscode
 *.out
 *.gch
 *.cpp
+.DS_Store
