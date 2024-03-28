@@ -97,7 +97,6 @@ class BRKGA {
                     for(int i=0;i<n;i++)    if(result[bestValId][i] == 1)   outfile << i << ' ';
                     outfile << '\n';
                     outfile.close();
-                    //std::cout << '>' << duration.count() << " New best: " << best << '\n';
                     if(best <= threshold)   break;
                 }
                 cnt++;
@@ -166,7 +165,7 @@ class BRKGA {
                 score[i] = x;
             }
         }
-        // Complexity: MDG * (n+m) with MDG be the solution value
+       
         std::vector<int> MDG(std::vector<double> d){
             std::vector<int> Cov(n, 0), S(n, 0);
             while(1){
