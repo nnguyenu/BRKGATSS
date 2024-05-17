@@ -2,7 +2,10 @@ image/
 dataset/
 implement/.ipynb_checkpoints
 implement/.vscode
+BRKGA.ipynb
+visualize.ipynb
+benchmarkRedundance.ipynb
 *.out
 *.gch
 *.cpp
-.DS_Store
+*.DS_Store
